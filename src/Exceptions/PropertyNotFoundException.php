@@ -8,7 +8,7 @@
 
 namespace CrazyFactory\Core\Exceptions;
 
-class PropertyNotFoundException extends CoreException
+class PropertyNotFoundException extends \Exception
 {
 	// Requires no code!
 }
