@@ -71,6 +71,13 @@ interface IModel
 	function isValidated();
 
 	/**
+	 * @param bool|null $bool
+	 *
+	 * @return bool
+	 */
+    function isValidatedOnChange($bool = null);
+
+	/**
 	 * @return void
 	 */
 	function resetDirtyState();
