@@ -9,10 +9,11 @@
 
 namespace CrazyFactory\Core\Interfaces;
 
+use CrazyFactory\Core\Interfaces\Base\IClassBase;
 use OutOfRangeException;
 use CrazyFactory\Core\Exceptions\PropertyNotFoundException;
 
-interface IModel
+interface IModel extends IClassBase
 {
 
 	const PRIMARY_KEY = "id";

@@ -6,10 +6,9 @@
  * Time: 09:56
  */
 
-namespace CrazyFactory\Core\Interfaces;
+namespace CrazyFactory\Core\Interfaces\Base;
 
-
-interface IBase
+interface IClassBase
 {
     /**
      * @return string The fully qualified name of the class

@@ -3,7 +3,9 @@
 namespace CrazyFactory\Core\Interfaces;
 
 
-interface ICollection
+use CrazyFactory\Core\Interfaces\Base\IClassBase;
+
+interface ICollection extends IClassBase
 {
 
 	/**
