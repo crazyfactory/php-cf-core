@@ -26,4 +26,4 @@ This test offers no real test cases by design as it only contains simple interfa
 
 - run ``composer update``
 - run ``composer test`` for PHPUnit tests.
-- run ``composer lint`` for code style tests (linux only)
+- run ``composer lint`` for code style tests.

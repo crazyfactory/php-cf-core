@@ -9,29 +9,34 @@
 
 namespace CrazyFactory\Core\Interfaces;
 
-interface ISerializer {
+interface ISerializer
+{
 
     /**
      * @param $input
+     *
      * @return mixed
      */
-    function serialize($input);
+    public function serialize($input);
 
     /**
      * @param $input
+     *
      * @return mixed
      */
-    function restore($input);
+    public function restore($input);
 
     /**
      * @param $list
+     *
      * @return mixed
      */
-    function serializeEach($list);
+    public function serializeEach($list);
 
     /**
      * @param $list
+     *
      * @return mixed
      */
-    function restoreEach($list);
+    public function restoreEach($list);
 }

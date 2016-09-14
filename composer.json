@@ -35,7 +35,7 @@
   
   "scripts": {
       "test": "phpunit -c phpunit.dist.xml",
-      "lint": "test/bin/phpcs.bash emacs",
-      "csfix": "test/bin/phpcbf.bash"
+      "lint": "phpcs --standard=phpcs.xml --colors src/",
+      "csfix": "phpcbf --standard=phpcs.xml --colors src/"
   }
 }

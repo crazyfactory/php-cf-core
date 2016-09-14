@@ -13,5 +13,5 @@ interface IClassBase
     /**
      * @return string The fully qualified name of the class
      */
-    static function className();
+    public static function className();
 }
