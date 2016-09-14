@@ -34,4 +34,3 @@ interface ICollection extends IClassBase
      */
     public function count();
 }
-
