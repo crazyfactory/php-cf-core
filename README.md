@@ -27,3 +27,8 @@ This test offers no real test cases by design as it only contains simple interfa
 - run ``composer update``
 - run ``composer test`` for PHPUnit tests.
 - run ``composer lint`` for code style tests.
+
+
+Changelog
+
+- 1.0.7: current Release
